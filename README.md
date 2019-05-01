@@ -5,22 +5,22 @@ Temporary repository.
 
 ### What is the number of VCs?
 - Code
-  - [sfvc_vc_1_howmany.do (.do)]()
+  - [sfvc_vc_1_howmany.do (.do)]
 
 ### What is the geographic scope of VCs?
 - Code
-  - [sfvc_vc_2_geoscope.do (.do)]()
+  - [sfvc_vc_2_geoscope.do (.do)]
 
 ### What countries are being coverred by VCs?
 #### Countries: All
 - Code
-  - [sfvc_vc_3_countries_all.do (.do)]()
+  - [sfvc_vc_3_countries_all.do (.do)]
 #### Countries: Regional scope
 - Code
-  - [sfvc_vc_3_countries_regional.do (.do) ()
+  - [sfvc_vc_3_countries_regional.do (.do)
 #### Countries: National or local scope
 - Code
-  - [sfvc_vc_3_countries_natloc.do (.do)]()
+  - [sfvc_vc_3_countries_natloc.do (.do)]
 
 ### What regions are being covered by VCs?
 #### Regions: All
