@@ -3,15 +3,15 @@ Temporary repository.
 
 ## SYNTHESIS AND ANALYSIS REPORT
 
-### Number of VCs
+### What is the number of VCs?
 - Code
   - [sfvc_vc_1_howmany.do (.do)]()
 
-### Geographic scope
+### What is the geographic scope of VCs?
 - Code
   - [sfvc_vc_2_geoscope.do (.do)]()
 
-### Countries
+### What countries are being coverred by VCs?
 #### Countries: All
 - Code
   - [sfvc_vc_3_countries_all.do (.do)]()
@@ -22,7 +22,7 @@ Temporary repository.
 - Code
   - [sfvc_vc_3_countries_natloc.do (.do)]()
 
-### Regions
+### What regions are being covered by VCs?
 #### Regions: All
 - Code
   - [sfvc_vc_4_regions_all.do (.do)](https://github.com/ergoro/undrr_sfvc/blob/master/sfvc_vc_4_regions_all.do)
