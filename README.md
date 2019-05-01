@@ -3,25 +3,35 @@ Temporary repository.
 
 ## SYNTHESIS AND ANALYSIS REPORT
 
-- Input
-  - [Data (.csv)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1.csv)
+### Number of VCs
 - Code
-  - [Main code (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1main.do)
-  - [Structure (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1structure.do)
-  - [Clean (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1clean.do)
-  - [Regress (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1regress.do)
-- Output
-  - [Data cleaned (.dta)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/2018_04_27/t1_clean.dta)
+  - [sfvc_vc_1_howmany.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
 
-## WBG's "Encuesta de Productividad de Empresas"
-
-### Describe and clean
-- Input
-  - [Data from orignal source (.dta)](http://microdata.worldbank.org/index.php/catalog/1314/get_microdata)
+### Geographic scope
 - Code
-  - [wb_epe_bol_main (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
-  - [wb_epe_bol_describe (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_describe.do)
-  - [wb_epe_bol_clean (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_clean.do)
-- Output
-  - [Description of data (.doc)](https://docs.google.com/document/d/1FhdTEOBb4qvfj4cMoX_0nh6_D1bAa84JTxhg3_N9aso/edit?usp=sharing)
-  - [clean data (.dta)]
+  - [sfvc_vc_2_geoscope.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+
+### Countries
+#### Countries: All
+- Code
+  - [sfvc_vc_3_countries_all.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+#### Countries: Regional scope
+- Code
+  - [sfvc_vc_3_countries_regional.do (.do) (https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+#### Countries: National or local scope
+- Code
+  - [sfvc_vc_3_countries_natloc.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+
+### Regions
+#### Regions: All
+- Code
+  - [sfvc_vc_4_regions_all.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+#### Regions: Regional scope
+- Code
+  - [sfvc_vc_4_regions_regional.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+#### Regions: National or local scope
+- Code
+  - [sfvc_vc_4_regions_natloc.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
+#### Regions UNDRR
+- Code
+  - [sfvc_vc_4_regions_undrr.do (.do)](https://github.com/ergoro/re_fin_ind_ucb/blob/master/wbg_enc_prod_emp_bol/wb_epe_bol_main.do)
