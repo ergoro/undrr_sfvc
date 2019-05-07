@@ -3,10 +3,6 @@ quietly{
 use "sfvc_data.dta", clear
 replace id = id[_n-1] if missing(id)
 rename AY scope
-gen wherenum = .
-quietly forval j = 0/9 {
-replace wherenum = min(wherenum, strpos(scopes_text, "`j'")) if strpos(scopes_text, "`j'")
-}
 keep id scopes_text scope countriesiso3_text
 order countriesiso3_text
 merge m:1 countriesiso3_text using regions
