@@ -23,7 +23,7 @@ Analysis code for the first Synthesis and Analysis Report of the SFVC.
   - [sfvc_vc_3_countries_all.do (.do)](https://github.com/ergoro/undrr_sfvc/blob/master/sfvc_vc_3_countries_all.do)
 #### Countries: Regional scope
 - Code
-  - [sfvc_vc_3_countries_regional.do (.do)(https://github.com/ergoro/undrr_sfvc/blob/master/sfvc_vc_3_countries_regional.do)
+  - [sfvc_vc_3_countries_regional.do (.do)](https://github.com/ergoro/undrr_sfvc/blob/master/sfvc_vc_3_countries_regional.do)
 #### Countries: National or local scope
 - Code
   - [sfvc_vc_3_countries_natloc.do (.do)](https://github.com/ergoro/undrr_sfvc/blob/master/sfvc_vc_3_countries_natloc.do)
