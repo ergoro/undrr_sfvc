@@ -1,7 +1,13 @@
-import excel "C:\Users\Erick Gonzales\Documents\UN\7_SFVC_Analysis_Report_2019\Others\Analysis_extra\2019-04-06_published_commitments_Stata.xlsx", sheet("VC Export - Published") firstrow
-save "C:\Users\Erick Gonzales\Documents\UN\7_SFVC_Analysis_Report_2019\Others\Analysis_extra\sfvc_data.dta", replace
+import excel "[insert]xlsx", sheet("[insert]") firstrow
+save "[insert]", replace
 
-cd "C:\Users\Erick Gonzales\Documents\UN\7_SFVC_Analysis_Report_2019\Others\Analysis_extra"
+cd "[insert]"
+
+*Filter: Published VCs only
+do sfvc_vc_0_filter_commitments_published.do
+
+*Filter: Main Focal Points only
+do sfvc_vc_0_filter_main_focal_points.do
 
 *Number of VCs
 do sfvc_vc_1_howmany.do
